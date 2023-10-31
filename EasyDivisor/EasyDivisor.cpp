@@ -10,9 +10,9 @@ int main()
     int count = 0;  // 約数を８個もつ数の個数
 
     // 正しい値を入力させる
-    while (maxNum < 1 || maxNum > 200 || maxNum % 2 == 0)
+    while (maxNum < 1 || maxNum > 200)
     {
-        printf("最大値(１以上１９９以下の奇数)を入力\n> ");
+        printf("最大値(１以上２００以下の整数)を入力\n> ");
         cin >> maxNum;
     }
     
