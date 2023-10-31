@@ -12,7 +12,7 @@ int main()
     // 正しい値を入力させる
     while (maxNum < 1 || maxNum > 200)
     {
-        printf("最大値(１以上２００以下の整数)を入力\n> ");
+        printf("範囲(１以上２００以下の整数)を入力\n> ");
         cin >> maxNum;
     }
     
