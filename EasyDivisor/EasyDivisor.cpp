@@ -33,7 +33,7 @@ int main()
             // 約数の数が８個を超えたらアウト
             if (divisor > 8)
             {
-                continue;
+                break;
             }
         }
 
